@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Startup</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <!-- Note that the below Bootstrap file is a specific version. If you grab the most
+    current from Bootstrap website, you will see the button grow transition being a lot faster
+    than in my video.  Use whichever style sheet you like best! -->
+    <!-- Bootstrap CSS from a CDN. This way you don't have to include the bootstrap file yourself -->
+
+    <!-- CSS only -->
+    <!-- Old version -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous"> -->
+    <!-- New version -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+    <!-- CSS My own stylesheet -->
+    <link href="style.css" rel="stylesheet">
+    <!-- background img is given in styles as a url in css file in the body, not in index -->
+  </head>
+
+  <body>
+    <!--Bootstrap: ENABLE classes for the style or use your own
+    - Flexbox: justify-content for horizontal and align-items for vertical 
+    - Don't need justify-content since you have col-12
+    - Bootstrap class h-100 (height=100% in css) to make sure the container is of 100% height of the page
+    - Divide: container > row > header,section with col-x values
+
+    -> Issue with the jumping container if you resize the window to the maximum
+
+
+  -->
+
+    <div class="container d-flex align-items-center h-100 w-100">
+      <div class="row">
+        <header class="text-center col-12">
+          <h1 class="text-uppercase">The startup of the year</h1>
+        </header>
+        <div class="buffer col-12"></div>
+        <section class="text-center col-12">
+          <!-- My class "btn-xl" on top of bootstrap to change the size-->
+          <a href="https://us21.list-manage.com/contact-form?u=d99e862c3f59fb4069934acf4&form_id=6e08dc45435c08989ddc7ee6eee14285"><button class="btn btn-outline-primary btn-xl">Find Out More</button>
+          </a>
+          <br>
+          <br>
+          <!-- Horinzontal line -->
+          <hr>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
+
+
