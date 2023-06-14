@@ -23,9 +23,15 @@
 
     <!-- CSS My own stylesheet -->
     <link href="style.css" rel="stylesheet">
-    <!-- background img is given in styles as a url in css file in the body, not in index -->
-  </head>
+        <!-- background img is given in styles as a url in css file in the body, not in index -->
 
+
+    <!-- Animate -->
+    <!-- CDN -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"> -->
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="animate.css">
+  </head>
   <body>
     <!--Bootstrap: ENABLE classes for the style or use your own
     - Flexbox: justify-content for horizontal and align-items for vertical 
@@ -38,20 +44,26 @@
 
   -->
 
-    <div class="container d-flex align-items-center h-100 w-100">
+    <div class="container d-flex align-items-center h-100">
       <div class="row">
         <header class="text-center col-12">
           <h1 class="text-uppercase">The startup of the year</h1>
         </header>
         <div class="buffer col-12"></div>
         <section class="text-center col-12">
+
           <!-- My class "btn-xl" on top of bootstrap to change the size-->
-          <a href="https://us21.list-manage.com/contact-form?u=d99e862c3f59fb4069934acf4&form_id=6e08dc45435c08989ddc7ee6eee14285"><button class="btn btn-outline-primary btn-xl">Find Out More</button>
+          <a href="https://us21.list-manage.com/contact-form?u=d99e862c3f59fb4069934acf4&form_id=6e08dc45435c08989ddc7ee6eee14285">
+            <button class="btn btn-outline-primary btn-xl">Find Out More</button>
           </a>
+
           <br>
           <br>
-          <!-- Horinzontal line -->
-          <hr>
+          <!-- Horinzontal line 
+            Animate via div or inside the element with a class
+            works either way-->
+          <div class="bounce"><hr></div>
+          <!-- <hr class="animate__animated animate__bounce animate__repeat-3"> -->
         </section>
       </div>
     </div>
